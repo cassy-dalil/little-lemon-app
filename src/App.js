@@ -1,10 +1,14 @@
 import './App.css';
+import './Nav';
 
 function App() {
   return (
-    <div>
-      Homepage
-    </div>
+    <React.Fragment>
+      <Header/>
+      <Nav/>
+      <Main/>
+      <Footer/>
+    </React.Fragment>
   );
 }
 
