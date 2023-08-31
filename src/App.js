@@ -1,5 +1,8 @@
 import './App.css';
 import './Nav';
+import './Header';
+import './Main';
+import './Footer';
 
 function App() {
   return (
