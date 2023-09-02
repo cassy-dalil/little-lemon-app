@@ -1,11 +1,11 @@
-import footerLogo from '../icons/icons_assets/Logo.svg'
+
 
 function Footer() {
     return (
       <footer>
         <img src={footerLogo} alt="Little Lemon logo"></img>
         <nav>
-            <li><a ref='#'>Home</a></li>
+            <li><a>Home</a></li>
             <li><a>About</a></li>
             <li><a>Menu</a></li>
             <li><a>Reservations</a></li>

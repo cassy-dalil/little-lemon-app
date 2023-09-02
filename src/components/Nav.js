@@ -1,12 +1,13 @@
-// import logo from '../icons/icons_assets/Logo .svg'
-import './App.css';
+import React from 'react';
+
+
 
 function Nav() {
     return (
       <nav>
-        <img src={logo} alt="Little Lemon logo"></img>
+        <img src={logo} alt="Little Lemon logo" className='App-logo'></img>
         <ul>
-            <li><a ref='#'>Home</a></li>
+            <li><a>Home</a></li>
             <li><a>About</a></li>
             <li><a>Menu</a></li>
             <li><a>Reservations</a></li>
