@@ -1,4 +1,5 @@
-import logo from '../icons/icons_assets/Logo .svg'
+// import logo from '../icons/icons_assets/Logo .svg'
+import './App.css';
 
 function Nav() {
     return (
@@ -15,3 +16,5 @@ function Nav() {
       </nav>
     );
   }
+
+export default Nav;
