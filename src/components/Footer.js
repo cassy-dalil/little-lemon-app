@@ -4,15 +4,15 @@ function Footer() {
     return (
       <footer>
         <img src={footerLogo} alt="Little Lemon logo"></img>
-        <nav>
+        <div className="footer-navigation">
             <li><a>Home</a></li>
             <li><a>About</a></li>
             <li><a>Menu</a></li>
             <li><a>Reservations</a></li>
             <li><a>Order Online</a></li>
             <li><a>Login</a></li>
-        </nav>
-        <div>
+        </div>
+        <div className="footer-contact">
           <h3>Contact</h3>
           <ul>
             <li>Address</li>
@@ -20,7 +20,7 @@ function Footer() {
             <li>Email</li>
           </ul>
         </div>
-        <div>
+        <div className="footer-social-media">
           <h3>Social Media Links</h3>
           <ul>
             <li><a>Media link 1</a></li>
