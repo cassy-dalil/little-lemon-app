@@ -1,3 +1,12 @@
+* {
+  font-family: "Markazi Text", "Karla", serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .App {
   text-align: center;
 }
@@ -37,7 +46,3 @@
   }
 }
 
-body {
-  margin: 0;
-  padding: 0;
-}
