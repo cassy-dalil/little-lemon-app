@@ -5,7 +5,6 @@ import './styles/nav.css';
 function Nav() {
     return (
       <nav>
-        <img src={logo} alt="Little Lemon logo" className='App-logo'></img>
         <ul>
             <li><a>Home</a></li>
             <li><a>About</a></li>

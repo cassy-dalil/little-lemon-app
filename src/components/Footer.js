@@ -1,4 +1,5 @@
-
+import React from "react";
+import footerLogo from './assets/Logo.jpg';
 
 function Footer() {
     return (
