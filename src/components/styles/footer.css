@@ -1,0 +1,24 @@
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 10px 0;
+    width: 80%;
+    font-family: 'karla';
+}
+
+.footer-img-logo {
+    width: 100px;
+}
+
+li {
+    list-style-type: none;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,8 +1,25 @@
-/* Nav {
+* {
+    font-family: 'karla';
+    font-size: medium;
+}
+
+Nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 0 auto;
     padding: 10px 0;
     width: 80%;
-} */
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 10px;
+}
+
+.nav-list-item {
+    list-style-type: none;
+    padding: 10px 10px;
+}

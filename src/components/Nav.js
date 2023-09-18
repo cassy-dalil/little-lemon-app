@@ -5,13 +5,13 @@ import './styles/nav.css';
 function Nav() {
     return (
       <nav>
-        <ul>
-            <li><a>Home</a></li>
-            <li><a>About</a></li>
-            <li><a>Menu</a></li>
-            <li><a>Reservations</a></li>
-            <li><a>Order Online</a></li>
-            <li><a>Login</a></li>
+        <ul className='nav-list'>
+            <li className='nav-list-item'><a>Home</a></li>
+            <li className='nav-list-item'><a>About</a></li>
+            <li className='nav-list-item'><a>Menu</a></li>
+            <li className='nav-list-item'><a>Reservations</a></li>
+            <li className='nav-list-item'><a>Order Online</a></li>
+            <li className='nav-list-item'><a>Login</a></li>
         </ul>
       </nav>
     );
