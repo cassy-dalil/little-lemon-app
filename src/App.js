@@ -4,6 +4,8 @@ import Header from './components/Header';
 import Main from './components/Main.js';
 import Footer from './components/Footer.js';
 
+import {Route, Routes} from "react-route-dom";
+
 function App() {
   return (
     <div className='App'>
@@ -12,6 +14,10 @@ function App() {
         <Main/>
         <Footer/>
       </React.Fragment>
+      <Routes> 
+        <Route path="/" element={<Home />}></Route>
+        <Route path="/reservations" element={<Reservations />}></Route>
+      </Routes>
     </div>
   );
 }
