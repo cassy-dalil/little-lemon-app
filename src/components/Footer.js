@@ -7,27 +7,27 @@ function Footer() {
       <footer>
         <img className="footer-img-logo" src={footerLogo} alt="Little Lemon logo"></img>
         <div className="footer-navigation">
-            <li className="footer-nav-list-item"><a>Home</a></li>
-            <li className="footer-nav-list-item"><a>About</a></li>
-            <li className="footer-nav-list-item"><a>Menu</a></li>
-            <li className="footer-nav-list-item"><a>Reservations</a></li>
-            <li className="footer-nav-list-item"><a>Order Online</a></li>
-            <li className="footer-nav-list-item"><a>Login</a></li>
+            <li className="footer-nav-list-item list-item">Home</li>
+            <li className="footer-nav-list-item list-item">About</li>
+            <li className="footer-nav-list-item list-item">Menu</li>
+            <li className="footer-nav-list-item list-item">Reservations</li>
+            <li className="footer-nav-list-item list-item">Order Online</li>
+            <li className="footer-nav-list-item list-item">Login</li>
         </div>
         <div className="footer-contact">
-          <h3>Contact</h3>
+          <p>Contact</p>
           <ul className="footer-contact-list">
-            <li className="footer-contact-list-item">Address</li>
-            <li className="footer-contact-list-item">Phone number</li>
-            <li className="footer-contact-list-item">Email</li>
+            <li className="footer-contact-list-item list-item">Address</li>
+            <li className="footer-contact-list-item list-item">Phone number</li>
+            <li className="footer-contact-list-item list-item">Email</li>
           </ul>
         </div>
         <div className="footer-social-media">
-          <h3>Social Media Links</h3>
+          <p>Social Media Links</p>
           <ul className="footer-social-media-list">
-            <li className="footer-contact-list-item"><a>Media link 1</a></li>
-            <li className="footer-contact-list-item"><a>Media link 2</a></li>
-            <li className="footer-contact-list-item"><a>Media link 3</a></li>
+            <li className="footer-social-media-list-item list-item">Media link 1</li>
+            <li className="footer-social-media-list-item list-item">Media link 2</li>
+            <li className="footer-social-media-list-item list-item">Media link 3</li>
           </ul>
         </div>
       </footer>
