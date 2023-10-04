@@ -26,6 +26,6 @@ Nav {
 
 @media screen and (max-width: 1024px) {
     Nav {
-        display: none;
-    }   
+        /* display: none; */
+    }
 }
