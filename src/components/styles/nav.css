@@ -7,9 +7,8 @@ Nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0 auto;
+    margin: .5rem;
     padding: 10px 0;
-    width: 80%;
 }
 
 .nav-list {
