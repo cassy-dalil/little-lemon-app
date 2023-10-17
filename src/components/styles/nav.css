@@ -1,9 +1,6 @@
-* {
+.nav-container {
     font-family: 'karla';
     font-size: medium;
-}
-
-Nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -24,7 +21,7 @@ Nav {
 }
 
 @media screen and (max-width: 1024px) {
-    Nav {
-        /* display: none; */
+    .nav-container {
+        display: none;
     }
 }

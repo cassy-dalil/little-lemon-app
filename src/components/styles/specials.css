@@ -1,0 +1,36 @@
+.specials-container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.specials-title-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2rem;
+}
+
+.Specials-title-text {
+    margin-right: 6rem;
+    font-size: 3rem;
+}
+
+.specials-order-online-button {
+    color: #F4CE14;
+    padding: .5rem 1.5rem;
+}
+
+.specials-cards-container {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    width: 4rem;
+}
+
+.specials-img {
+    height: 4rem;
+}

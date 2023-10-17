@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import Header from './components/Header';
 import HeroSection from './components/HeroSection.js';
+import Specials from './components/Specials';
 import Footer from './components/Footer.js';
 
 // import {Route, Routes} from "react-route-dom";
@@ -12,6 +13,7 @@ function App() {
       <React.Fragment>
         <Header />
         <HeroSection />
+        <Specials />
         <Footer />
       </React.Fragment>
       {/* <Routes> 

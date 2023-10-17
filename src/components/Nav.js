@@ -4,7 +4,7 @@ import './styles/nav.css';
 
 function Nav() {
     return (
-      <nav>
+      <nav className='nav-container'>
         <ul className='nav-list'>
             <li className='nav-list-item'><a>Home</a></li>
             <li className='nav-list-item'><a>About</a></li>
