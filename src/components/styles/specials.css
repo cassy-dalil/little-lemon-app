@@ -16,7 +16,7 @@
 
 .Specials-title-text {
     margin-right: 6rem;
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 
 .specials-order-online-button {
@@ -56,4 +56,8 @@
 
 .order-delivery-button {
     padding: .5rem 1rem;
+    background-color: #F4CE14;
+    color: black;
+    border: none;
+    font-weight: bold;
 }

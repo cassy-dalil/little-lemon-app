@@ -4,6 +4,7 @@ import Header from './components/Header';
 import HeroSection from './components/HeroSection.js';
 import Specials from './components/Specials';
 import Footer from './components/Footer.js';
+import Testimonials from './components/Testimonials';
 
 // import {Route, Routes} from "react-route-dom";
 
@@ -14,6 +15,7 @@ function App() {
         <Header />
         <HeroSection />
         <Specials />
+        <Testimonials />
         <Footer />
       </React.Fragment>
       {/* <Routes> 
