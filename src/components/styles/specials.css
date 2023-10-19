@@ -26,11 +26,34 @@
 
 .specials-cards-container {
     display: flex;
-    align-items: start;
+    align-items: flex-start;
     justify-content: center;
     width: 4rem;
 }
 
 .specials-img {
-    height: 4rem;
+    height: 189px;
+    width: 300px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.specials-card {
+    margin: 0 2rem;
+    background-color: #EDEFEE;
+    border-radius: 10px;
+    height: 400px;
+}
+
+.specials-title {
+    margin: 0;
+}
+
+.specials-price {
+    color: #EE9972;
+    margin: 0;
+}
+
+.order-delivery-button {
+    padding: .5rem 1rem;
 }
