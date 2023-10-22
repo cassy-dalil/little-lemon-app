@@ -4,7 +4,7 @@ import '../components/styles/footer.css';
 
 function Footer() {
     return (
-      <footer>
+      <footer className="footer-container">
         <img className="footer-img-logo" src={footerLogo} alt="Little Lemon logo"></img>
         <div className="footer-navigation footer-div">
             <li className="footer-nav-list-item list-item">Home</li>
