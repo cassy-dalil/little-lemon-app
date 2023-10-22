@@ -22,6 +22,7 @@
 .specials-order-online-button {
     color: #F4CE14;
     padding: .5rem 1.5rem;
+    font-family: 'karla';
 }
 
 .specials-cards-container {
@@ -47,11 +48,17 @@
 
 .specials-title {
     margin: 0;
+    font-family: 'karla';
 }
 
 .specials-price {
     color: #EE9972;
     margin: 0;
+    font-family: 'karla';
+}
+
+.specials-description {
+    font-family: 'karla';
 }
 
 .order-delivery-button {
@@ -59,5 +66,10 @@
     background-color: #F4CE14;
     color: black;
     border: none;
-    font-weight: bold;
+    font-family: 'karla';
+}
+
+.order-delivery-button:hover {
+    background-color: #495E47;
+    color: white;
 }
