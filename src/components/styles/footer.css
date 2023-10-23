@@ -1,12 +1,19 @@
 .footer-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
     margin: 0 auto;
     padding: 0 2rem;
     font-family: 'karla';
-    color: #000000;
+    color: white;
     background-color: #495E47;
+    text-align: center;
+}
+
+.footer-text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    margin: 0 auto;
+    padding: 1rem;
 }
 
 .footer-img-logo {
@@ -18,16 +25,18 @@
     font-size: 12px;
 }
 
-.footer-p {
-    font-size: 12px;
-    color: #000000;
-}
-
 .footer-div {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     justify-content: flex-start;
+    padding: 0;
+    height: 10rem;
+}
+
+.footer-subtitle {
+    padding: 0;
+    margin-bottom: .5rem;
 }
 
 ul {
