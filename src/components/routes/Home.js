@@ -3,6 +3,7 @@ import Header from '../Header';
 import Herosection from '../HeroSection';
 import Specials from '../Specials';
 import Testimonials from '../Testimonials';
+import About from '../About';
 import Footer from '../Footer';
 
 const Home = () => {
@@ -12,6 +13,7 @@ const Home = () => {
             <Herosection />
             <Specials />
             <Testimonials />
+            <About />
             <Footer />
         </>
     )
