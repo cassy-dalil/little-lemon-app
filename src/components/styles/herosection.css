@@ -39,16 +39,17 @@
     font-family: 'karla';
 }
 
-button {
+.hero-button {
     background-color: #333333;
     color: #EDEFEE;
     font-size: 1rem;
     border-radius: 10px;
     padding: .5rem 3rem;
     font-family: 'karla';
+    text-decoration: none;
 }
 
-button:hover {
+.hero-button:hover {
     background-color: #F4CE14;
     color: #000000;
     font-weight: bold;

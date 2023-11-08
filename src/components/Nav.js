@@ -7,12 +7,12 @@ function Nav() {
     return (
       <nav className='nav-container'>
         <ul className='nav-list'>
-            <li className='nav-list-item'><Link to="/Home">Home</Link></li>
-            <li className='nav-list-item'><Link to="/About">About</Link></li>
-            <li className='nav-list-item'><Link to="/Menu">Menu</Link></li>
-            <li className='nav-list-item'><Link to="/Reservations">Reservations</Link></li>
-            <li className='nav-list-item'><Link to="/OrderOnline">Order Online</Link></li>
-            <li className='nav-list-item'><Link to="/Login">Login</Link></li>
+            <li className='nav-list-item'><Link to="/Home" className='link'>Home</Link></li>
+            <li className='nav-list-item'><Link to="/About" className='link'>About</Link></li>
+            <li className='nav-list-item'><Link to="/Menu" className='link'>Menu</Link></li>
+            <li className='nav-list-item'><Link to="/Reservations" className='link'>Reservations</Link></li>
+            <li className='nav-list-item'><Link to="/OrderOnline" className='link'>Order Online</Link></li>
+            <li className='nav-list-item'><Link to="/Login" className='link'>Login</Link></li>
         </ul>
       </nav>
     );

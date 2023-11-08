@@ -21,6 +21,16 @@
     font-family: 'karla';
 }
 
+.nav-list-item:hover {
+    background-color: #F4CE14;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}
+
+
 @media screen and (max-width: 1024px) {
     .nav-container {
         display: none;

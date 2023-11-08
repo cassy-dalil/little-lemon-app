@@ -24,6 +24,14 @@
     color: #F4CE14;
     padding: .5rem 1.5rem;
     font-family: 'karla';
+    text-decoration: none;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.specials-order-online-button:hover {
+    background-color: #F4CE14;
+    color: black;
 }
 
 .specials-cards-container {
@@ -71,6 +79,7 @@
     border: none;
     font-family: 'karla';
     margin: 1rem;
+    text-decoration: none;
 }
 
 .order-delivery-button:hover {
