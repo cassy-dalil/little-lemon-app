@@ -3,7 +3,7 @@ import './styles/about.css';
 // import BrothersA from './assets/Mario and Adrian A.jpg';
 import BrothersB from './assets/Mario and Adrian b.jpg';
 
-function About() {
+function AboutSection() {
     return(
         <section className="about-container">
             <section className="about-text">
@@ -21,4 +21,4 @@ function About() {
     )
 }
 
-export default About;
+export default AboutSection;
