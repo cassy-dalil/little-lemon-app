@@ -6,6 +6,9 @@ function OrderOnline() {
     return (
         <div>
             <Header />
+            <div className='banner-container'>
+                <h1 className="banner-text">Order Online</h1>
+            </div>
             <Footer />
         </div>
     )

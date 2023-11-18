@@ -6,6 +6,9 @@ function Login() {
     return (
         <div>
             <Header />
+            <div className='banner-container'>
+                <h1 className="banner-text">Login</h1>
+            </div>
             <Footer />
         </div>
     )

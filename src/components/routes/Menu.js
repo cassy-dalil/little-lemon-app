@@ -6,6 +6,9 @@ function Menu() {
     return (
         <div>
             <Header />
+            <div className='banner-container'>
+                <h1 className="banner-text">Menu</h1>
+            </div>
             <Footer />
         </div>
     )

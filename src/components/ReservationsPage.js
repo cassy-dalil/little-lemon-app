@@ -5,7 +5,7 @@ import Form from "./Form";
 function ReservationsPage() {
     return (
         <div>
-            <div className='reserve-table-banner'>
+            <div className='banner-container'>
                 <h1 className="banner-text">Reservations</h1>
             </div>
             <Form />

@@ -13,7 +13,7 @@ const schema = yup.object({
 });
 
 function Form() {
-    const {handleSubmit, register, formState: { errors} } = useForm({
+    const {handleSubmit, formState: { errors} } = useForm({
         resolver: yupResolver(schema)
     });
 
