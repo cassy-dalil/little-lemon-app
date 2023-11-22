@@ -46,3 +46,12 @@ input, textarea, select {
     background-color: #F4CE14;
     color: black;
 }
+
+.confirmation-container {
+    background-color: #495E47;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 10px;
+}

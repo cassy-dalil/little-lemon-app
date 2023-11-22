@@ -6,6 +6,7 @@ import Login from './components/routes/Login';
 import Menu from './components/routes/Menu';
 import OrderOnline from './components/routes/OrderOnline';
 import Reservations from './components/routes/Reservations';
+import Confirmation from './components/routes/Confirmation';
 
 import {Route, Routes} from "react-router-dom";
 
@@ -20,6 +21,7 @@ function App() {
         <Route path="/Menu" element={<Menu />}/>
         <Route path="/orderonline" element={<OrderOnline />}/>
         <Route path="/reservations" element={<Reservations />}/>
+        <Route path="/confirmation" element={<Confirmation />}/>
       </Routes>
     </>
   );

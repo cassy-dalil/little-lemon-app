@@ -3,6 +3,7 @@ import "./styles/reservations.css";
 import {useForm} from "react-hook-form";
 import { yupResolver} from "@hookform/resolvers/yup";
 import * as yup from "yup";
+import { Link } from 'react-router-dom';
 
 const schema = yup.object({
     name: yup.string().required("Full name is a required field!"),
@@ -49,7 +50,7 @@ function Form() {
             <input type="text" placeholder='Email'></input>
             <label for="rest-comments">Additional Comments:</label>
             <textarea type="text" placeholder='Additional Comments'></textarea>
-            <button type="submit" className='reserve-table-button'>Reserve Table!</button>
+            <Link type="submit" className='reserve-table-button' to='/confirmation'>Reserve Table!</Link>
         </form>
     )
 }
